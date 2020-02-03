@@ -1,3 +1,77 @@
 
-
+Emplacement - Folder : 
 C:\wamp64\www\EspritClub\...
+
+
+
+
+
+
+________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________
+
+
+lors de l'examen il faut refaire la creation du nouveau projet (@home) → atelier 2 : ajout des commandes symfony 
+
+app → config.l 
+bundle = module 
+
+1 seule bundle. 
+nbr bundle = nbr rooting.yml 
+rootingGlobal
+
+
+
+MVC
+1st Controlleur 
+
+mise en place de Symfony sur l'IDE
+plugin php → phpstorm ( via le composer )  
+
+
+delete bundle : 
+config.yml 
+routing.yml
+config_dev.yml 
+
+
+controlleur pere : http://localhost/EspritClub/web/app_dev.php 
+controlleur fils (Routing global)   : http://localhost/EspritClub/web/app_dev.php/club/
+_________
+controlleur fils (Routing global)→ ( routing secifique du bundle  )   :
+ http://localhost/EspritClub/web/app_dev.php/club/affiche 
+
+on modifie (in my application ) : C:\wamp64\www\......EspritClub\src\ClubBundle\Resources\config\routing.yml
+
+routing.yml : 
+
+club_homepage:
+    path:     /affiche
+    defaults: { _controller: ClubBundle:Default:index }
+
+
+_______________________
+
+pic : clubcontroller >> 
+copy and paste  C:\wamp64\www\EspritClub\src\ClubBundle\Controller\DefaultController.php 
+in the same folder and then change name of new file to   EspritClub\src\ClubBundle\Controller\ClubController.php 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
