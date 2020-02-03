@@ -1,4 +1,4 @@
-#Becareful with whiteSpaces can cause problem !
+#WhiteSpaces can cause problems !!!
 club_homepage:
     path:     /
     defaults: { _controller: ClubBundle:Default:index }
@@ -8,7 +8,7 @@ club_homepage:
 club_indexpage:
     path:     /index
     defaults: { _controller: ClubBundle:Club:index }
-#Go to (browse)  : http://localhost/EspritClub/web/app_dev.php/club/index  → bonjour
+#Browse  : http://localhost/EspritClub/web/app_dev.php/club/index  → bonjour
 
 club_affiche:
     path:     /affiche
@@ -16,6 +16,4 @@ club_affiche:
 
 #ScreenShot (pic ) : homepage.png
 #this is the homePage.html.twig path
-#Go to ( browse ) : http://localhost/EspritClub/web/app_dev.php/club/affiche
-
-
+#Browse : http://localhost/EspritClub/web/app_dev.php/club/affiche
