@@ -1,0 +1,21 @@
+#Becareful with whiteSpaces can cause problem !
+club_homepage:
+    path:     /
+    defaults: { _controller: ClubBundle:Default:index }
+# to check : http://localhost/EspritClub/web/app_dev.php/
+#Browse : http://localhost/EspritClub/web/app_dev.php/club/  → Hello World !
+
+club_indexpage:
+    path:     /index
+    defaults: { _controller: ClubBundle:Club:index }
+#Go to (browse)  : http://localhost/EspritClub/web/app_dev.php/club/index  → bonjour
+
+club_affiche:
+    path:     /affiche
+    defaults: { _controller: ClubBundle:Club:home }
+
+#ScreenShot (pic ) : homepage.png
+#this is the homePage.html.twig path
+#Go to ( browse ) : http://localhost/EspritClub/web/app_dev.php/club/affiche
+
+
